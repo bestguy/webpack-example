@@ -1,4 +1,15 @@
+# Webpack example
 
+To run:
+
+`npm install`
+`cd ./public/scripts`
+`bower install`
+`cd ../../`
+`node app.js`
+
+## Presentation notes below:
+=
 ----
 
 # Webpack
