@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Webpack Example</title>
+</head>
+
+<body>
+  <section data-bind="with: cjs">
+    <h1>CJS:</h1>
+
+    <h2>{{message}}</h2>
+    <input type="text" data-bind="textInput: message">
+  </section>
+
+  <section data-bind="with: amd">
+    <h1>AMD:</h1>
+
+    <h2>{{message}}</h2>
+    <input type="text" data-bind="textInput: message">
+  </section>
+
+  <section data-bind="with: coffee">
+    <h1>CoffeeScript:</h1>
+
+    <h2>{{message}}</h2>
+    <input type="text" data-bind="textInput: message">
+  </section>
+
+  <section data-bind="with: es6">
+    <h1>ES6:</h1>
+
+    <h2>{{message}}</h2>
+  </section>
+
+  <section data-bind="with: json">
+    <h1>JSON:</h1>
+
+    <h2>{{message}}</h2>
+  </section>
+
+
+  <section>
+    <h1>Jade:</h1>
+
+    <!-- Triple brackets are for unescaped HTML: -->
+    <h2>{{{jade}}}</h2>
+  </section>
+
+
+  <section>
+    <h1>Markdown:</h1>
+
+    <h2>{{{md}}}</h2>
+  </section>
+</body>
+
+<script type="text/javascript" src="/scripts/bundle.js"></script>
+
+</html>
