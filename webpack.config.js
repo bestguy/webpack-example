@@ -12,7 +12,7 @@ module.exports = {
     loaders: [
       { test: /\.coffee/, loader: 'coffee-loader' },
       { test: /\.css/, loader: 'style-loader!css-loader' }, // ! is piping into multiple loaders
-      { test: /\.es6$/, loader: 'es6-loader' },
+      { test: /\.es6/, loader: 'babel-loader' },
       { test: /\.html/, loader: 'html' },
       { test: /\.jade/, loader: 'html!jade-html' },
       { test: /\.json/, loader: 'json-loader' },
