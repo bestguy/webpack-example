@@ -1,6 +1,7 @@
 ._*
 .DS_Store
 .DS_Store?
+*.swp
 .idea
 .Spotlight-V100
 .Trashes

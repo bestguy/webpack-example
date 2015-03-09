@@ -20,7 +20,7 @@ var CoffeeScriptExample = require('./Example.coffee');
 var coffee = new CoffeeScriptExample('CoffeeScript is kinda cool');
 
 // ES6
-var ES6Example = require('./example/Example.es6').default;
+var ES6Example = require('./Example.es6');
 var es6 = new ES6Example();
 
 // JSON

@@ -13,8 +13,8 @@
     "tests"
   ],
   "dependencies": {
-    "knockout": "~3.2.0",
-    "knockout.punches": "~0.5.0",
+    "knockout": "~3.3.0",
+    "knockout.punches": "~0.5.1",
     "jquery": "~2.1.3"
   }
 }
